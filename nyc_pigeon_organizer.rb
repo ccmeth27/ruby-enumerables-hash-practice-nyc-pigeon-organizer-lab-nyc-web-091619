@@ -6,5 +6,6 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if !pigeon_hash.has_key?(name)
           pigeon_hash[name] = {}
-          
+        end
+        
 end
