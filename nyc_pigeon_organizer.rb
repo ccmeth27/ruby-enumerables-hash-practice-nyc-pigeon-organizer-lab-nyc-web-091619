@@ -9,5 +9,7 @@ def nyc_pigeon_organizer(data)
         end
         
         if !pigeon_hash.has_key?(prop)
-          pigeon_hash[prop] = {}
+          pigeon_hash[prop] = []
+        end 
+        
 end
